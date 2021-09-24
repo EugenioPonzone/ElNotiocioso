@@ -6,7 +6,7 @@
 
 ## Problematica semanal 02
 - HTML + CSS creation based on online newspapper.
--Original URL https://www.washingtonpost.com/entertainment/museums/bob-thompson-artist-retrospective-colby/2021/09/20/7faeab18-13c1-11ec-a5e5-ceecb895922f_story.html
+- Original URL https://www.washingtonpost.com/entertainment/museums/bob-thompson-artist-retrospective-colby/2021/09/20/7faeab18-13c1-11ec-a5e5-ceecb895922f_story.html
 
 
 ## Author
