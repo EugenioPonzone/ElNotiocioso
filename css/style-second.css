@@ -1,0 +1,271 @@
+/*  ORDEN BP
+position
+display
+flex
+box-model": width, height, margin, padding, top, left, etc.
+background y border.
+font-size, text-shadow, etc).
+ */
+
+body{
+    font-family: georgia, Times New Roman,serif;
+}
+ a{
+    text-decoration: none;
+}
+h1{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.button{
+    min-width: 36px;
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+    padding: 9px 16px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+figure{
+    margin:0;
+}
+figure img{
+    max-width: 100%;
+}
+figcaption{
+    padding:1em 0;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #888;
+}
+.clear{
+    clear:both;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+}
+i{
+    padding:2px;
+}
+/* header */
+header{
+    position: fixed;
+    width: 100%;
+    min-height: 60px;
+    background-color: #000;
+    color: #fff;
+}
+.button.head{
+    float: left; 
+    border: 1px solid #888; 
+    background-color: #333 ;
+}
+.button.subscription{
+    float: right; 
+    background-color: #1955a5;
+}
+.button.head, 
+.button.subscription{
+    color: #fff;
+    font-size: 15px;
+
+}
+.button.head.signIn{
+    float:right;
+    margin-right: 0.8em;
+}
+.title{
+    float:left;
+    text-align: center;
+    margin-left: 25em;
+}
+.title h2{
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    color: #ccc;
+}
+/* article */
+.headerArticle{
+    padding: 5em 0 1.1em;
+    border-top: 1px solid #ccc;     
+}
+.headerArticle h3{
+    display: inline;
+    font-family: arial,sans-serif;
+    font-size: 1em;
+}
+.headerArticle span{
+    border-bottom: 2px dotted #ccc;
+    font-size: 1em;
+    color: #888;
+}
+.headerArticle h2{
+    margin: 0em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ccc;
+    font-size: 3.5em;  
+    font-family: garamond,serif;
+}
+article{
+    width:65%;
+    float:left;
+    margin-bottom: 2em;
+    padding: 0.5em 2em 0.5em 0;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+}
+article p{
+    font-size: 1.25em;
+    line-height: 1.6;
+    color:#222;
+}
+article p a{
+    color:#1955a5;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;  
+}
+.author{
+    font-family: Arial,Helvetica,sans-serif; 
+    font-size: 14px;
+    color:#000;
+}
+.author img{
+    float:left;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+.authorDescription{
+    float:left;
+    padding: 13px;
+}
+.authorDescription .nameAuthor{
+    border-bottom: 1px solid #888;
+}
+.authorDescription .underName{
+    display: block;
+    margin-top: 0.4em;
+    color: #888;
+}
+.author .icons{
+    float:right;
+}
+.author .icons a{
+    display: block;
+    float:right;
+    padding: 0.8em;
+    color:#333;
+}
+.author .icons a:hover{
+    border-radius: 50%;
+    background-color:#ddd ;
+}
+.author .icons i{
+    font-size: 18px;
+}
+.author .date{
+    color: #888;
+}
+.relatedNews{
+    font-style: italic;
+}
+.figureAside{
+    width: 25%;
+    float: left;
+    margin-right: 2em;
+}
+.footerArticle{
+    margin-top:3em;    
+    font-style: italic;
+}
+.keypad{
+    margin-top:3em;
+    margin-bottom: 3em;
+}
+.bArticle{
+    margin-left: 0;
+    margin-right: 1em;
+    border-radius: 2em;
+    border: 1px solid #999;
+    color: #222;
+    padding: 0.5em 1.5em ;        
+}
+.bArticle:hover{
+    background-color: #ccc;
+}
+.bArticle:active{
+    border-color: black;
+}
+.authorDescriptionTwo{
+    float:left;
+    max-width: 88%;
+    margin-bottom: 2em;
+    padding: 6px 0 0 13px;   
+}
+.authorDescriptionTwo .nameAuthor{
+    border-bottom: 1px solid #888;
+}
+.authorDescriptionTwo .underName{
+    display: block;
+    margin-top: 0.4em;
+    color: #888;
+}
+.authorDescriptionTwo .underName a{
+    color:#888;
+    text-decoration: underline;
+}
+/* Aside */
+aside{
+    width:35%;
+    float:right;
+}
+.sectionInProgress{
+    height: 100vh;
+    margin-left: 1em;
+    padding-top: 50vh;
+    box-sizing: border-box;
+    background-color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ccc;
+}
+/* footer */
+footer{
+    border-top:1px solid #ccc;
+}
+.footerSection{
+    width: 25%;
+    float: left;
+    margin: 2em 0;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.footerSection h4{
+    margin-top:0;
+    margin-bottom: 0.5em;
+}
+.footerSection ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    line-height: 1.75;
+}
+.footerSection a{
+    color:#555;
+}
+.footerSection a:hover{
+    color:#1955a5;
+}
+.copyrigth{
+    margin-top:3em;
+    padding-top: 1.5em;
+    border-top: 1px solid #ccc;
+    text-align:center;
+    font-size: 0.8em;
+    font-family: arial,sans-serif;
+}
