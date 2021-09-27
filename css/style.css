@@ -42,9 +42,10 @@ figcaption{
 .clear{
     clear:both;
 }
-.container{
+main{
     width: 1250px;
     margin: 0 auto;
+    padding-top: 5em ;
 }
 i{
     padding:2px;
@@ -90,7 +91,7 @@ header{
 }
 /* article */
 .headerArticle{
-    padding: 5em 0 1.1em;
+    padding: 1em 0 1.1em;
     border-top: 1px solid #ccc;     
 }
 .headerArticle h3{
@@ -240,6 +241,7 @@ aside{
 /* footer */
 footer{
     border-top:1px solid #ccc;
+    padding: 0 10em;
 }
 .footerSection{
     width: 25%;
@@ -274,9 +276,14 @@ footer{
 }
 /* Adjustment for the oldest new */
 span.subtitle{
+    display: block;
     border-bottom: none;
     font-size: 0.5em;
     font-family: garamond,serif;
     line-height: 1em;
     color: #222;
+}
+iframe{
+    width: 100%;
+    height:500px;
 }
